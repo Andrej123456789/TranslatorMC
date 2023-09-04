@@ -9,11 +9,11 @@ public final class Translator extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        System.out.println(Colors.rainbowText("++++++++++++++++++++++++++++++++"));
-        System.out.println(Colors.rainbowText("++++++++++++++++++++++++++++++++"));
-        System.out.println(Colors.YELLOW + "Translator has been enabled!");
-        System.out.println(Colors.rainbowText("++++++++++++++++++++++++++++++++"));
-        System.out.println(Colors.rainbowText("++++++++++++++++++++++++++++++++"));
+        getServer().getConsoleSender().sendMessage(Colors.rainbowText("++++++++++++++++++++++++++++++++"));
+        getServer().getConsoleSender().sendMessage(Colors.rainbowText("++++++++++++++++++++++++++++++++"));
+        getServer().getConsoleSender().sendMessage(Colors.YELLOW + "Translator has been enabled!");
+        getServer().getConsoleSender().sendMessage(Colors.rainbowText("++++++++++++++++++++++++++++++++"));
+        getServer().getConsoleSender().sendMessage(Colors.rainbowText("++++++++++++++++++++++++++++++++"));
     }
 
     @Override
