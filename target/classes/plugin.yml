@@ -1,6 +1,6 @@
-name: Untitled
-version: '0.1'
-main: xyz.karlito1501.translator.Untitled
-api-version: 1.20
+name: Translator
+version: '1.0-SNAPSHOT'
+main: xyz.karlito1501.translator.Translator
+api-version: '1.19'
 depend: [ProtocolLib]
-authors: [karlito1501]
+authors: [karlito1501, andrej123456789]
