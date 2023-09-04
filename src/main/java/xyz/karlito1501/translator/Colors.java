@@ -26,6 +26,7 @@ public class Colors {
             rainbowText.append(randomColor).append(text.charAt(i));
         }
 
+        rainbowText.append(RESET);
         return rainbowText.toString();
     }
 }
